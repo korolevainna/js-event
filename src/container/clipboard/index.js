@@ -16,7 +16,9 @@ window.addEventListener('cut', (event) => {
 window.addEventListener('paste', (event) => {
   console.log(event)
   event.preventDefault()
+
   const pastedContent =
     event.clipboardData.getData('text/plain')
+    
   alert(`Вставлено: ${pastedContent}`)
 })

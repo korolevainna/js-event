@@ -26,3 +26,9 @@ focusInput.addEventListener('focusout', () => {
     'Елемент втратив фокус (focusout)'
   focusMessage.style.color = 'orange'
 })
+
+// document
+//   .querySelector('.form__group')
+//   .addEventListener('focusin', () => {
+//     alert('focusin')
+//   })
